@@ -1713,7 +1713,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 
   .scrolldown .scroll-icon {
     font-size: 1.2rem;
-    top: 24px;
+    top: 4px;
     right: 10px;
   }
 }
@@ -1766,6 +1766,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
   .home-content-tablecell h3 {
     font-size: 1.4rem;
+    margin-top: 74px;
   }
   .home-content-tablecell h1 {
     font-size: 3.6rem;
