@@ -386,6 +386,15 @@ img.pull-right {
 
 img.pull-left {
   margin: 1.5rem 3rem 0 0;
+  width: 192px;
+  height: 220px;
+}
+
+.buttongaleria{
+  display: flex;
+  position: relative;
+ margin: -270px 0px 74px;
+ left: 44%;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1214,6 +1223,7 @@ input::-moz-focus-inner {
 
 .js .animate-this, .js .animate-intro {
   opacity: 0;
+  
 }
 
 .oldie .animate-this,
@@ -1263,7 +1273,7 @@ header .header-logo a {
   border: none;
   width: 170px;
   height: 100px;
-  background: url("../images/logoheader.png") no-repeat center;
+  background: url("../images/LOGOWEB.png") no-repeat center;
   background-size: 170px 100px;
   font: 0/0 a;
   text-shadow: none;
@@ -1299,12 +1309,15 @@ header .header-logo a {
 }
 #header-menu-trigger.opaque {
   background-color: #000000;
+  border-radius: 30px;
 }
 #header-menu-trigger.opaque .header-menu-text {
   background-color: #000000;
+  border-radius: 14px;
 }
 #header-menu-trigger:hover, #header-menu-trigger:focus {
   color: #FFFFFF;
+  border-radius: 30px;
 }
 #header-menu-trigger .header-menu-text {
   display: block;
@@ -1556,6 +1569,7 @@ header .header-logo a {
   letter-spacing: .3rem;
   margin: 0 0 15.9rem 0;
   margin-top: 90px;
+  
 }
 .home-content-tablecell h1 {
   font-family: "montserrat-bold", serif;
@@ -2478,7 +2492,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background: rgba(0, 0, 0, 0.2);
   cursor: default;
 }
-#clients .owl-carousel .owl-nav.disabled + .owl-dots {
+#clients .owl-carousel .owl-nav.disabled  .owl-dots {
   margin-top: 1.8rem;
 }
 #clients .owl-carousel .owl-dots {
@@ -2488,7 +2502,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #clients .owl-carousel .owl-dots .owl-dot {
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
 }
 #clients .owl-carousel .owl-dots .owl-dot span {
   width: 9px;
