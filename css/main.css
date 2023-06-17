@@ -391,6 +391,7 @@ img.pull-left {
   height: 220px;
 }
 
+
 .buttongaleria{
   display: flex;
   position: relative;
@@ -1504,9 +1505,10 @@ header .header-logo a {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
   header .header-logo a {
-    width: 147px;
-    height: 74px;
-    background-size: 134px 67px;
+    width: 300px;
+    height: 100px;
+    margin-left: -100px;
+    background-size: 300px 100px;
   }
 }
 @media only screen and (max-width: 400px) {
